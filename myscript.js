@@ -108,8 +108,11 @@ console.log(squadreCalcio);
 console.log(datiSquadre)
 
 
-
-
+/**
+ * Funzione che genera numeri random
+ * @param {number} min numero più piccolo generabile
+ * @param {number} max numero più grande generabile
+ */
 function numRandomGen(min, max) {
     const minMax = max - min;
 
