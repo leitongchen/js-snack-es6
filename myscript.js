@@ -99,9 +99,14 @@ for (let i=0; i < squadreCalcio.length; i++) {
 console.log(`ESERCIZIO JSNACK 2 ---------------------`);
 
 for (let i=0; i < datiSquadre.length; i++) {
-    const datoSquadra = datiSquadre[i];
+    //const datoSquadra = datiSquadre[i];
 
-    console.log(`La squadra ${datoSquadra.nomeSquadra} ha subito ${datoSquadra.falliSubiti} falli.`)
+    let {nomeSquadra, falliSubiti} = datiSquadre[i];
+
+    //console.log(`La squadra ${datoSquadra.nomeSquadra} ha subito ${datoSquadra.falliSubiti} falli.`);
+    
+    console.log(`La squadra ${nomeSquadra} ha subito ${falliSubiti} falli.`);
+
 }
 
 console.log(squadreCalcio);
